@@ -1,0 +1,72 @@
+/* Home Components Styling*/
+.image-bg{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.dropdown_select{
+    margin-top: 30px;
+    display: flexbox;
+    justify-content: center;
+    background-color: aqua;
+    height: 90px;
+}
+.dropdown_options{
+    margin-top: 30px;
+    justify-content: center;
+
+}
+.dropdown_options_selectboard{   
+    padding: 20px;
+    width: 170px;
+    height: 60px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 14PX;
+}
+.dropdown_options_selectstate{
+    padding: 20px;
+    justify-content: center;
+    float: left;
+    width: 170px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 14PX;
+}
+.dropdown_options_selectcity{
+
+    padding: 20px;
+    justify-content: center;
+    float: left;
+    width: 170px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 14PX;
+}
+.dropdown_options_selectbranch{
+    padding: 20px;
+    justify-content: center;
+    float: left;
+    width: 170px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 14PX;
+}
+.search_field{
+    display: flexbox;
+    justify-content: center;
+    border-style: groove;
+    border-radius: 50px;
+    width: 180px;
+    height: 50px;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 110px;
+    font-style: italic;
+    position: absolute;
+}
+.search_icon{
+    position: relative;
+    z-index: 999;
+
+}

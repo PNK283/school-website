@@ -1,0 +1,153 @@
+/*Nav_1 Css*/
+
+.NavbarIems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, .25);
+    width: 94.5%;
+    height: 60px;
+    background-color: SteelBlue;
+}
+.navbar-logo{
+    width: 90px;
+    height: 60px;
+    margin-top: 5px;
+    float: left;
+}
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-headername{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.nav-menu a{
+text-decoration: none;
+font-size: 13px;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+.nav-links a{
+    color: black;
+}
+.nav-links a:hover{
+    color: white;
+}
+.nav-links-download, .nav-links-enqiry, .nav-links-admission{
+    display: flexbox;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 3px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: SteelBlue;
+    color: white;
+}
+.nav-links-download a{
+    color:black;
+}
+
+.nav-links-enqiry a {
+    color: black;
+}
+.nav-links-admission a{
+    color: black;
+}
+.nav-links-download:hover{
+    background-color: white
+   
+}
+.nav-links-enqiry:hover{
+    background-color: white;
+   
+}
+.nav-links-admission:hover{
+    background-color: white;
+    
+}
+.login-btn{
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    border-color: white;
+    border-style: solid;
+    background-color: SteelBlue;
+}
+.btn-login button{
+    color: black;
+    margin-top: 8px;
+}
+.btn-login button:hover{
+    color: black;
+}
+.login-btn:hover{
+    background-color: white;
+}
+
+/*Nav_2 Css*/
+
+.Navbar-2-Iems{
+    display: flex;
+    display: -moz-inline-box;
+    justify-content: space-between;
+    align-items: center;
+    background-color: DeepPink;
+    height: 55px;
+    width: 100%;
+}
+.nav-2-menu{
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-gap: 15px;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 55px;
+}
+.nav-2-menu a{
+    text-decoration: none;
+    
+}
+.nav-2-links a{
+    font-size: 14px;
+    display: flexbox;
+    box-sizing: border-box;
+    display: block;
+    border-width: 3px;
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px
+}
+.nav-2-menu a:hover{
+   box-sizing: border-box;
+   background-color: orangered ;
+   color: black;
+   border-radius: 20px; 
+   
+}
+
+
